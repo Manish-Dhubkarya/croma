@@ -1,0 +1,44 @@
+Category
+=========
+caregoryid  pk
+categoryname
+icon
+
+Brands
+=======
+categoryid  fk
+brandid   pk
+brandname
+logo
+
+Products
+=========
+categoryid   fk
+brandid    fk
+productid  pk
+productname
+picture
+
+
+ProductDetails
+===============
+categoryid  fk
+brandid  fk
+productid   fk
+productdetailsid  pk
+modelno
+description
+color
+price
+offerprice
+stock
+picture
+
+
+UserAccount
+============
+emailid pk
+mobileno pk
+username
+address
+pincode
